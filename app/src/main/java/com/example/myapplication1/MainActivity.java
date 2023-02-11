@@ -3,6 +3,8 @@ package com.example.myapplication1;
 import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.os.Bundle;
+import android.widget.*;
+import android.view.*;
 
 
 
@@ -21,6 +23,15 @@ public class MainActivity extends AppCompatActivity {
         Log.w(TAG, "This is a warn log");
         Log.e(TAG, "This is an error log.");
 
+        Button button = (Button) findViewById(R.id.button1);
+
+        button.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v){
+                Log.i(TAG, "Button Clicked");
+            }
+        });
 
 
     }
