@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Today's Activity is an introduction of logs. This is by Andre Kent Ricablanca.
-        Log.v(TAG, "This is a verbose tag.");
+        Log.v(TAG, "This is a verbose log.");
         Log.d(TAG, "This is a debug log.");
         Log.i(TAG,"This is an info log.");
         Log.w(TAG, "This is a warn log");
