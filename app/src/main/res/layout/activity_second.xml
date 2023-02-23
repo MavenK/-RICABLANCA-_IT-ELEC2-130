@@ -21,10 +21,9 @@
 
     <EditText
         android:id="@+id/message"
-        android:layout_below="@id/to"
-        android:layout_centerVertical="true"
         android:layout_width="match_parent"
-        android:layout_height="600dp"
+        android:layout_height="500dp"
+        android:layout_below="@id/to"
         android:hint="@string/message" />
 
     <Button
