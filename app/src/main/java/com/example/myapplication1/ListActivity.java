@@ -18,7 +18,7 @@ public class ListActivity extends AppCompatActivity {
         List<String> footballPlayers = new ArrayList<>();
         footballPlayers.add(0, "Select a robot...");
         footballPlayers.add("Umar");
-        footballPlayers.add("King Andrei");
+        footballPlayers.add("King Andrei Caburnay");
         footballPlayers.add("Cyrhel");
         footballPlayers.add("Andre Kent");
         footballPlayers.add("Bobeth");
