@@ -18,4 +18,5 @@ public class DialogFragment extends androidx.fragment.app.DialogFragment {
 
         return inflater.inflate(R.layout.dialog_fragment, container, false);
     }
+
 }
