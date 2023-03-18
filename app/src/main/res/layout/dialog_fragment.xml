@@ -10,14 +10,18 @@
         android:layout_width="300dp"
         android:layout_height="440dp"
         android:background="#1D90EC"
-        app:circularflow_radiusInDP="10dp" >
+        app:circularflow_radiusInDP="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="This is Dialog Fragment"
-            android:textSize="40dp"
             android:gravity="center"
+            android:text="@string/fragmentText"
+            android:textSize="@dimen/dFragmentTS"
             android:textStyle="bold" />
     </LinearLayout>
 

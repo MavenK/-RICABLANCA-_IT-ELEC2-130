@@ -5,8 +5,11 @@
     <string name="to">To</string>
     <string name="subject">Subject</string>
     <string name="message">Message</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fragmentText">This is Dialog Fragment</string>+
+    <string name="search">Search</string>
+    <string name="copy">Copy</string>
+    <string name="refresh">Refresh</string>
 
 
 </resources>
