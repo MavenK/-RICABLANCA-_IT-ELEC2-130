@@ -3,4 +3,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <string name="gotosecond">Go to Second Activity</string>
+    <string name="checkBattery">Click Here to Get Battery Health</string>
 </resources>
