@@ -1,11 +1,2 @@
 <resources>
-    <!-- main activity: linear layout -->
-    <string name="app_name">hello Android</string>
-    <string name="send">SEND</string>
-    <string name="to">To</string>
-    <string name="subject">Subject</string>
-    <string name="message">Message</string>
-
-
-
 </resources>
