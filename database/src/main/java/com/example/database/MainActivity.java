@@ -26,14 +26,14 @@ public class MainActivity extends AppCompatActivity {
         dbHelper.deleteAllData();
 
         // Insert data
-        dbHelper.insertData("Andre", 25);
-        dbHelper.insertData("Kent", 24);
+        dbHelper.insertData("John", 25);
+        dbHelper.insertData("Luke", 24);
 
         // Get data
         getData();
 
         // Update data
-        dbHelper.updateData(2, "Kunt", 26);
+        dbHelper.updateData(2, "Mark", 26);
 
         // Get data
         getData();
